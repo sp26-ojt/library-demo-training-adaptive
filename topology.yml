@@ -3,14 +3,14 @@ name: library-demo-training-adaptive
 hosts:
   - name: server
     base_box:
-      image: ubuntu-noble-x86_64
-      man_user: ubuntu
+      image: debian-12-x86_64
+      man_user: debian
     flavor: standard.small
 
   - name: client
     base_box:
-      image: ubuntu-noble-x86_64
-      man_user: ubuntu
+      image: debian-12-x86_64
+      man_user: debian
     flavor: standard.small
 
 routers:
